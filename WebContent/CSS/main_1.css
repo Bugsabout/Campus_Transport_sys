@@ -1,0 +1,108 @@
+@charset "UTF-8";
+body{
+	margin:0;
+	position:relative;
+}
+
+/*头修饰*/
+	.hd{
+		background-color:#0080c0;
+		width:100%;
+		height:140px;
+		position:relative;
+	}
+	.hd_1{
+		width:50%;
+		height:50%;
+		margin-top:30px;
+		position:absolute;
+		background-color:#8080ff;
+	}
+		span{
+			font-size:58px;
+			color:#00ff00;
+			font-weight:bold;
+			font-family:Tahoma,Arial,"宋体";
+			text-align:center;
+		
+
+		}
+	
+	
+/*主体修饰*/
+	.bd{
+		width:100%;
+		min-height:1000px;
+		position:relative:
+	}
+		.bd_left{
+			width:20%;
+			min-height:1000px;
+			background-image:url(../Image/11.jpg);
+			background-size:100% 100%;
+		}
+			.bd_img{
+				width:100%;
+				height:85px;
+				background-image:url(../Image/12.jpg);
+				background-size:100% 100%;
+				filter:alpha(Opacity=80);
+				-moz-opacity:0.5;
+				opacity: 0.5;
+
+
+			}
+				.u_img{
+					width:80px;
+					height:80px;
+					border-radius:20px;
+					background-image:url(../Image/user.jpg);
+					background-size:80px 80px;
+					margin-bottom:5px;
+					margin-left:auto;
+					margin-right:auto;
+					filter:alpha(Opacity=80);
+					-moz-opacity:0.9;
+					opacity: 0.9;
+				}
+				.u_img:hover{
+					width:83px;
+					height:83px
+				}
+			.bd_info{
+				width:80%;
+				min-height:600px;
+				margin:0 auto;
+			}
+			ul{
+				font-size:20px;
+			}
+			a{
+				text-decoration:none;
+			}
+			a:link{
+				color:black;
+			}
+			a:active{
+				color:black;
+			}
+			a:visited{
+				color:black;
+			}
+			 a:hover{
+			 	color:orange;
+			 	font-size:18px;
+			 	font-weight:bold;
+			 }
+			
+			
+			
+		.bd_right{
+			width:80%;
+			min-height:1000px;
+			background-image:url(../Image/7.jpg);
+			background-size:100% 100%;
+			position:absolute;
+			left:20%;
+			top:140px;
+		}
